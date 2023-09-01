@@ -57,11 +57,11 @@ public class BankAccount {
     }
 
     public static void main(String[] args) {
-        BankAccount acc1 = new BankAccount(2000, 3000);
-        acc1.deposit(500, "checking");
-        acc1.withdraw(100, "savings");
+        BankAccount accTest = new BankAccount(2000, 3000);
+        accTest.deposit(500, "checking");
+        accTest.withdraw(100, "savings");
 
-        System.out.println("Checking: " + acc1.getCheckingBalance());
-        System.out.println("Savings: " + acc1.getSavingsBalance());
+        System.out.println("Checking: " + accTest.getCheckingBalance());
+        System.out.println("Savings: " + accTest.getSavingsBalance());
     }
 }
